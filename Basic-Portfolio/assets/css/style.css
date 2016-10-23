@@ -1,0 +1,134 @@
+header {
+	padding: 0;
+	color: white;
+	background-color: white;
+	clear: left;
+	text-align: center;
+	overflow: hidden;
+	border-bottom: 2px solid #E5E5E5;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+	
+}
+
+h1 {
+	background: #65A3A2;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 2.5em;
+	width: 24%;
+	padding: 2% 0;
+	float: left;
+}
+
+ul {
+	color: #E5E5E5;
+	float: right;
+	margin-right: 12.5em;
+	margin-top: 2em;
+}
+
+li {
+	display: inline;
+	font-size: 110%;
+	color: grey;
+}
+
+li:not(:first-child):before {
+	content: " | ";
+	margin: 0 8px;
+	color: #DDDDDD;
+}
+
+.section {
+	float: left;
+	width: 50%;
+	border: 2px solid #E5E5E5;
+	margin-left: 5em;
+	margin-top: 2.5em;
+	background-color: white;
+	margin-bottom: 2.5em;
+}
+
+.connect {
+	border: 2px solid #E5E5E5;
+	float: right;
+	width: 25%;
+	margin-top: 2.5em;
+	margin-right: 11.25em;
+	padding-bottom: 4.375em;
+	background-color: white;
+	color: #65A3A2;
+	float: left;
+	margin: 2em;
+}
+
+h3 {
+	text-align: center;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #CCC;
+	margin: 1em 1.875em;
+	padding: 0;
+}
+
+p {
+	margin: 1.875em 1.875em;
+	text-align: justify;
+	margin-top: 2px;
+	color: grey;
+}
+
+h2 {
+	margin-left: 1.875em;
+	margin-left: 1.275em;
+	color: #65A3A2;
+}
+
+.picture {
+	float: left;
+	height: 5.85em;
+	width: 4.9em;
+	margin: 0.5em;
+	margin-left: 1.875em;
+}
+
+.footer {
+	position: absolute;
+	bottom: -2em;
+	left: 0;
+	right: 0;
+	height: 75px;
+	background: grey;
+	text-align: center;
+	vertical-align: bottom;
+	border-top: 7px solid teal;
+	color: teal;
+	font-size: 70%;
+	position: fixed;
+
+}
+
+.connecticon {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	width: 50px;
+	height: auto;
+
+
+}
